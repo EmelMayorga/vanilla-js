@@ -1,7 +1,10 @@
 class Contador {
-  // Inserte el código aquí
+ valor = 0
+siguiente(){
+  return this.valor ++
 }
+}
+let instancia = new Contador()
 
-// Inserte el código aquí
 
 export { instancia }
